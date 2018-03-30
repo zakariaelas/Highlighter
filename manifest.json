@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Highlighter",
+  "description": "This extension allows users to highlight text in any web page",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "Highlightmarker.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+        "tabs",
+        "notifications",
+        "http://*/",
+        "https://*/"
+    ]
+}
